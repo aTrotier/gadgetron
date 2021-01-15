@@ -37,5 +37,10 @@ install(FILES
         config/external_matlab_acquisition_example.xml
         config/external_matlab_bucket_example.xml
 		config/external_matlab_buffer_example.xml
-		config/external_matlab_tiny_example.xml
+                config/external_matlab_tiny_example.xml
+                config/external_matlab_passthrough_acquisition.xml
+                config/external_matlab_passthrough_bucket.xml
+                config/external_matlab_passthrough_recondata.xml
+                config/external_matlab_passthrough_image.xml
+                config/external_matlab_passthrough_imagearray.xml
         DESTINATION ${GADGETRON_INSTALL_CONFIG_PATH} COMPONENT main)
